@@ -24,16 +24,24 @@ a { color: #00ff9c; text-decoration: none; }
 .badge { display: inline-block; padding: 5px 10px; margin: 5px; background: #1a1a1a; border: 1px solid #00ff9c; border-radius: 20px; font-size: 0.85rem; }
 
 /* Social icons */
-.social-icons {
-  margin-top: 15px;
+.social-icons {margin-top: 15px;}
+.social-icons a {margin: 0 10px;font-size: 1.5rem;transition: 0.3s;}
+.social-icons a:hover {color: #ffffff;
+.message-btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:12px 28px;
+    border:1px solid #00ff9c;
+    border-radius:30px;
+    color:#00ff9c;
+    text-decoration:none;
+    transition:.3s;
 }
-.social-icons a {
-  margin: 0 10px;
-  font-size: 1.5rem;
-  transition: 0.3s;
+
+.message-btn:hover{
+    background:#00ff9c;
+    color:#000;
 }
-.social-icons a:hover {
-  color: #ffffff;
 }
 </style>
 </head>
@@ -42,6 +50,7 @@ a { color: #00ff9c; text-decoration: none; }
 <header>
   <h1>S KAILAS</h1>
   <p>Cybersecurity Practitioner • Linux & System Management • Computer Networking</p>
+  <a href="https://chat.heyy-kailas.me" target="_blank" class="message-btn">Message Me</a>   
 </header>
 
 <div class="container">
